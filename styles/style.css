@@ -7,6 +7,33 @@
     font-style: normal;
 }
 
+main,
+header {
+    margin-left: 140px;
+    margin-right: 140px;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav li a {
+    text-decoration: none;
+
+}
+
 .banner-title {
     color: rgb(255, 255, 255);
     font-size: 64px;
@@ -18,7 +45,7 @@
 }
 
 .banner {
-    
+
     background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
     max-width: 1320px;
     height: 600px;
@@ -29,23 +56,111 @@
     text-align: center;
 
 }
-form{
+
+form {
     display: flex;
     justify-content: center;
 }
-.banner-description{
-    
+
+.banner-description {
+
     color: rgb(255, 255, 255);
     /* width: 670px; */
     /* height: 50px; */
-    
+
 }
 
 
 
-.btn-primary{
+.surch-primary {
     border: 0px;
     width: 175px;
     height: 50px;
     background: rgb(255, 84, 0);
+}
+
+.description-part {
+    display: flex;
+    max-width: 1320px;
+
+
+    margin: 50px 140px 0;
+    text-align: left;
+    gap: 50px;
+}
+
+.popular-title {
+    font-size: 30px;
+}
+
+.btn-primary {
+    border: 0px;
+    width: 175px;
+    height: 50px;
+    background: rgb(255, 84, 0);
+    border-radius: 10px;
+
+    color: rgb(255, 255, 255);
+
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.choose-part {
+    margin: 100px;
+}
+
+.choose {
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.choose-description {
+    /* position: absolute; */
+    /* width: 643px;
+    height: 52px; */
+    text-align: center;
+    /* left: 398px;
+    right: -398px; */
+
+
+
+    color: rgba(19, 19, 24, 0.7);
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.choose-photo1 {
+    margin-top: 50px;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+
+
+}
+
+/* .card-price{
+    justify-content: center;
+    align-items: center;
+    
+} */
+
+footer {
+    background: rgba(19, 19, 24, 0.05);
+    padding: 100px;
+    width: 100%;
+    height: 502px;
+    text-align: center;
 }
